@@ -30,7 +30,7 @@ if prompt:
     response = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
         messages=[
-            {"role": "system", "content": "You are a funny sarcastic assistant."},
+            {"role": "system", "content": "You are a funny sarcastic assistant created by yamini."},
             *st.session_state.messages
         ]
     )
